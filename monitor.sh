@@ -14,8 +14,7 @@
 #           st : time stolen from this vm by the hypervisor
 # 	----------------------------------------------------
 # Second part of the script show CPU temperature.
-# SD card usage and capacity
-# The last one show size of folder, which user can change by his choice  
+# SD card usage and capacity 
 
 echo | awk 'BEGIN {
         for (i = 0; i < 60; i++)
